@@ -1,0 +1,38 @@
+android with test
+mvn archetype:generate -DarchetypeArtifactId=android-with-test -DarchetypeGroupId=de.akquinet.android.archetypes -DarchetypeVersion=1.0.11 -DgroupId=com.foo.bar -DartifactId=my-android-project -Dpackage=com.foo.bar.android
+
+java quickstart
+mvn archetype:generate -DgroupId=om37 -DartifactId=CHANGE_ME -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+
+To start pong client
+-> cmd and cd into Users\Odie\Mvn\MvnPong
+-> mvn clean
+-> mvn compile
+-> mvn package
+-> java -cp target/mvnPong-1.0-SNAPSHOT.jar om37.App
+			OR
+-> java -cp target/mvnPong-1.0-SNAPSHOT.jar om37.Client
+
+To start pong server
+-> cmd and cd into Users\Odie\Mvn\MvnPongServer
+-> mvn clean
+-> mvn compile
+-> mvn package
+-> java -cp target/mvnPongServer-1.0-SNAPSHOT.jar om37.App
+			OR
+-> java -cp target/mvnPongServer-1.0-SNAPSHOT.jar om37.Server
+
+
+
+
+
+Archetypes List
+http://stand.spree.de/wiki_details_maven_archetypes
+
+Maven
+http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+http://answers.oreilly.com/topic/258-how-to-create-a-new-maven-project-from-the-command-line/
+
